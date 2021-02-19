@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "FANZA BOOK FILTER",
+  "description": "Filter by book in FANZA E-book list",
+  "version": "1.0",
+  "icons": {
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://book.dmm.co.jp/*"],
+      "js": ["scripts.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "FANZA BOOK FILTER",
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs", "background", "http://*/*", "https://*/*"]
+}
