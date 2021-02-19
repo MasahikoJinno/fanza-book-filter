@@ -2,7 +2,7 @@
 
 Filter FANZA e-books by book
 
-## How to use
+## Usage
 
 1. clone this repository
 1. open `chrome://extensions/`

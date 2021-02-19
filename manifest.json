@@ -19,5 +19,5 @@
     "default_title": "FANZA BOOK FILTER",
     "default_popup": "index.html"
   },
-  "permissions": ["tabs", "background", "http://*/*", "https://*/*"]
+  "permissions": ["tabs", "http://*/*", "https://*/*"]
 }
